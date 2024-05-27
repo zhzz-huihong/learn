@@ -1,0 +1,20 @@
+spring:
+  kafka:
+    bootstrap-servers:
+      - 192.168.153.129:9092
+    consumer:
+      group-id: test-consumer
+      auto-offset-reset: latest
+#spring:
+#  kafka:
+#    bootstrap-servers:
+#      - 122.51.69.198:9092
+#    producer:
+#      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+#    consumer:
+#      value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
+#server:
+#  port: 8080
+hub:
+  example:
+    city: New York
